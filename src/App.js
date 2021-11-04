@@ -41,6 +41,9 @@ function App() {
         <NumberTile addends={addends[step]} />
       </div>
       <div>
+        <h2>Is the number in this table?</h2>
+      </div>
+      <div>
         <button className="btn" onClick={newGuessNumber}>Yes</button>
         <button className="btn cancel" onClick={incrementStep}>No</button>
       </div>
@@ -52,15 +55,18 @@ function App() {
         <h1>{guess}</h1>
       </div>
       <div>
-        <button className="btn" onClick={refreshStates}>Refresh</button>
+        <button className="btn" onClick={refreshStates}>Play Again</button>
       </div>
     </Fragment>
   }
 
   return (
     <div className="container">
-      <h1>Mind Reader</h1>
-      <h3>Think of a number between 1 and 31, and we will tell you which number it is</h3>
+      <div className="header">
+        <h1>Mind Reader App</h1>
+        <h2>Think of a number between 1 and 31. </h2>
+        <h2> We will guess the number.</h2>
+      </div>
       <div>
         <Fragment>
           { curr_display }

@@ -2,8 +2,13 @@
   text-align: center;
 }
 
+.header {
+  width: 75%;
+  margin: auto;
+}
+
 .grid-box {
-  width: 50%;
+  width: 75%;
   margin: auto;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -25,7 +30,7 @@
   background-color: green;
   line-height: 40px;
   border-radius: 5px;
-  width: 100px;
+  width: 130px;
   font-size: larger;
   margin: 1em;
 }
