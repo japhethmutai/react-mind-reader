@@ -8,3 +8,6 @@ The app is able to read a user's mind by asking a few questions. The user is ask
 The user is then shown a screen of numbers and asked to say if their number is in the screen.
 After going through a series of screens, the app is able to tell which number the user is thinking of.
 
+## Demo Link
+Test out the app at Vercel:
+https://react-mind-reader.vercel.app/
