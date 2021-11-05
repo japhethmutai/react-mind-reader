@@ -18,11 +18,18 @@
   margin: 5px;
   font-size: x-large;
   line-height: 75px;
-  background-color: rgb(0, 110, 255);
   color: white;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
+}
+
+.odd-color {
+  background-color: rgb(132, 0, 255);
+}
+
+.even-color {
+  background-color: rgb(0, 110, 255);
 }
 
 .btn {
